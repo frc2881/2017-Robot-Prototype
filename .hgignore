@@ -1,0 +1,4 @@
+syntax: glob
+Robot Code/Builds/home/lvuser/natinst/bin/startup.aliases
+Robot Code/AGAIN.aliases
+DriveStation/2017PrototypeDashboard.aliases
