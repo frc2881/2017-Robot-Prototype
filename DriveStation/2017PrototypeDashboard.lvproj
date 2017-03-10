@@ -238,6 +238,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCP Reception Initialization.vi" Type="VI" URL="../TCP Reception Initialization.vi"/>
+			<Item Name="Get Camera Image.vi" Type="VI" URL="../Get Camera Image.vi"/>
+			<Item Name="TCP Reception Loop.vi" Type="VI" URL="../TCP Reception Loop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
