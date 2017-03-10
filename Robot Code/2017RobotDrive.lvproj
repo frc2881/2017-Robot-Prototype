@@ -124,6 +124,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="Camera Get Image.vi" Type="VI" URL="../Camera Get Image.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="ScalingLockLogic.vi" Type="VI" URL="../ScalingLockLogic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -621,6 +622,11 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_UtilitiesTimebaseConstants.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesTimebaseConstants.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
+			<Item Name="38 Video Mode.ctl" Type="VI" URL="../38 Video Mode.ctl"/>
+			<Item Name="Camera Initialization.vi" Type="VI" URL="../Camera Initialization.vi"/>
+			<Item Name="Camera Settings.ctl" Type="VI" URL="../Camera Settings.ctl"/>
+			<Item Name="Change Camera Configuration.vi" Type="VI" URL="../Change Camera Configuration.vi"/>
+			<Item Name="Configure Camera Setting.vi" Type="VI" URL="../Configure Camera Setting.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -639,6 +645,10 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TCP Camera Acquisition Loop.vi" Type="VI" URL="../TCP Camera Acquisition Loop.vi"/>
+			<Item Name="TCP Initialization loop.vi" Type="VI" URL="../TCP Initialization loop.vi"/>
+			<Item Name="TCP Port Control.ctl" Type="VI" URL="../TCP Port Control.ctl"/>
+			<Item Name="TCP Transmission Loop.vi" Type="VI" URL="../TCP Transmission Loop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
